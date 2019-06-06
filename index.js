@@ -31,7 +31,7 @@ const Updater = require('./lib/Updater')
  * @property {Mod[]} upToDate - list of mods that are already up to date
  */
 
-module.exports = class ModManager {
+class ForgeModUpdater {
   /**
     * @param {string} directory - directory to manage
     */
@@ -156,3 +156,5 @@ module.exports = class ModManager {
       })
   }
 }
+
+module.exports = ForgeModUpdater
