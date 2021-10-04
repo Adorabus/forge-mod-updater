@@ -1,5 +1,5 @@
 {
-  "name": "@adorabus/forge-mod-updater",
+  "name": "forge-mod-updater",
   "version": "1.0.1",
   "description": "A module to update Minecraft Forge mods via the Curse/Twitch mod database.",
   "main": "index.js",
@@ -28,8 +28,5 @@
     "async": "^3.2.0",
     "mz": "^2.7.0",
     "request": "^2.88.2"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/adorabus"
   }
 }
